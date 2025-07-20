@@ -22,7 +22,7 @@ public class CommandService {
         } else {
             executor.submit(()->
             {
-                log.info("Обрабатывается COMMON команду:", command.getDescription());
+                log.info("Обрабатывается COMMON команду:{}", command.getDescription());
                 task.run();
             });
         }
