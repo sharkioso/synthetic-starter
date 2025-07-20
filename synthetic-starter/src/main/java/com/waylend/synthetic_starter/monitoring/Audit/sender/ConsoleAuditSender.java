@@ -1,4 +1,4 @@
-package com.waylend.synthetic_starter.monitoring.sender;
+package com.waylend.synthetic_starter.monitoring.Audit.sender;
 
 import org.springframework.stereotype.Service;
 

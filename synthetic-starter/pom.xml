@@ -47,6 +47,10 @@
 			<artifactId>spring-boot-autoconfigure</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-core</artifactId> <!-- Входит в starter-actuator -->
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>3.2.0</version> <!-- Актуальная версия -->

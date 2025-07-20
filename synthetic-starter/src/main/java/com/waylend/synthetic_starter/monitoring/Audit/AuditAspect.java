@@ -1,11 +1,11 @@
-package com.waylend.synthetic_starter.monitoring;
+package com.waylend.synthetic_starter.monitoring.Audit;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
-import com.waylend.synthetic_starter.monitoring.sender.AuditSender;
+import com.waylend.synthetic_starter.monitoring.Audit.sender.AuditSender;
 
 import lombok.RequiredArgsConstructor;
 

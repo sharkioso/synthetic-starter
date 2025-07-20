@@ -1,4 +1,4 @@
-package com.waylend.synthetic_starter.monitoring.sender;
+package com.waylend.synthetic_starter.monitoring.Audit.sender;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.kafka.core.KafkaTemplate;
