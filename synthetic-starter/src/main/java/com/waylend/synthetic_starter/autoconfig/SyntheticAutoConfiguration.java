@@ -1,7 +1,6 @@
 package com.waylend.synthetic_starter.autoconfig;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 
 import com.waylend.synthetic_starter.command.srevice.CommandService;
