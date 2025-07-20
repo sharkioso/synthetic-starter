@@ -1,13 +1,13 @@
-package com.synthetic.starter;
+package com.waylend.synthetic_starter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StarterApplication {
+public class SyntheticStarterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StarterApplication.class, args);
+		SpringApplication.run(SyntheticStarterApplication.class, args);
 	}
 
 }
