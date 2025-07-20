@@ -1,7 +1,6 @@
 package com.waylend.synthetic_starter.monitoring.sender;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
-import org.springframework.context.annotation.Conditional;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
