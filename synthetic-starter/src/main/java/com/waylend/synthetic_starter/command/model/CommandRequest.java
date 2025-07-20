@@ -13,12 +13,14 @@ public class CommandRequest {
     @Size(max = 1000)
     private String description;
     
+    @NotBlank
     private Prioryty prioryty;
     
     @NotBlank
     @Size(max = 100)
     private String author;
 
+    @NotBlank
     @Pattern
     (
         regexp = "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:d{3}Z$",
