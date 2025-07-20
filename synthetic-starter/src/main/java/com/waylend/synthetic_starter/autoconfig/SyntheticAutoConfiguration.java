@@ -2,16 +2,13 @@ package com.waylend.synthetic_starter.autoconfig;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Primary;
 import org.springframework.kafka.core.KafkaTemplate;
 
 import com.waylend.synthetic_starter.command.srevice.CommandService;
 import com.waylend.synthetic_starter.monitoring.Audit.AuditAspect;
 import com.waylend.synthetic_starter.monitoring.Audit.sender.AuditSender;
-import com.waylend.synthetic_starter.monitoring.Audit.sender.ConsoleAuditSender;
 import com.waylend.synthetic_starter.monitoring.Audit.sender.KafkaAuditSender;
 import com.waylend.synthetic_starter.monitoring.metrics.MetricsAspect;
 
