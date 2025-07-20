@@ -2,7 +2,6 @@ package com.waylend.synthetic_starter.exception;
 
 import java.util.List;
 import java.util.concurrent.RejectedExecutionException;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.springframework.http.HttpStatus;
