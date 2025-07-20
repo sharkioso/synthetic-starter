@@ -13,7 +13,7 @@
     
     <groupId>com.waylend</groupId>
     <artifactId>synthetic-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
     
     <name>synthetic-starter</name>
