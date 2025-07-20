@@ -19,14 +19,13 @@ public class AuditAspect {
     public Object auditMethod(ProceedingJoinPoint pjp, WeylandWatchingYou audit) throws Throwable {
         String methodName = pjp.getSignature().getName();
         Object[] args = pjp.getArgs();
-        
-        try{
+
+        try {
             Object result = pjp.proceed();
-            auditSender.send(audit.mode(),methodName,args,result);
+            auditSender.send(audit.mode(), methodName, args, result);
             return result;
-        }
-        catch(Exception e){
-            auditSender.send(audit.mode(), methodName, args, "Error"+e.getMessage());
+        } catch (Exception e) {
+            auditSender.send(audit.mode(), methodName, args, "Error" + e.getMessage());
             throw e;
         }
     }

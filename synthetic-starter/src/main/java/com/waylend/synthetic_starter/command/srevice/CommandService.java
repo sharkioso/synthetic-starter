@@ -20,8 +20,7 @@ public class CommandService {
             log.info("Выполняется CRITICAL команда :{}", command.getDescription());
             task.run();
         } else {
-            executor.submit(()->
-            {
+            executor.submit(() -> {
                 log.info("Обрабатывается COMMON команду:{}", command.getDescription());
                 task.run();
             });
